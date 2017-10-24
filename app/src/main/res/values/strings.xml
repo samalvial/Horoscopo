@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Horoscopo</string>
+    <string name="btn_login">Ingresar</string>
+    <string name="btn_registro">Registrar</string>
+    <string name="btn_cancelar">Cancelar</string>
+    <string name="btn_back">Volver</string>
+    <string name="lbl_nombre">Nombre</string>
+    <string name="lbl_pass">Contraseña</string>
+    <string name="lbl_pass2">Confirme contraseña</string>
+    <string name="lbl_email">Ingrese email</string>
+    <string name="acuario">Acuario</string>
+    <string name="piscis">Piscis</string>
+    <string name="aries">Aries</string>
+    <string name="tauro">Tauro</string>
+    <string name="geminis">Géminis</string>
+    <string name="cancer">Cáncer</string>
+    <string name="leo">Leo</string>
+    <string name="virgo">Virgo</string>
+    <string name="libra">Libra</string>
+    <string name="escorpio">Escorpio</string>
+    <string name="sagitario">Sagitario</string>
+    <string name="capricornio">Capricornio</string>
+
+
+    <string name="txtacuario">En el amor tomará decisiones importantes que le ayudarán a ser más feliz, por eso es importante que no se quede quieto. Confíe en el amor le va a sonreír.
+        Puede que se plantee en dejar a su pareja actual, los astros indican que la buena ventura está a su favor.
+        En el trabajo todo pinta bastante bien para acuario horóscopo octubre.</string>
+    <string name="txtpiscis">En el amor es momento para reconocer errores del pasado e intentar mejorar nuestra relación actual,
+        incluso si habías roto con la persona en meses anteriores, puedes intentar un acercamiento.
+        En el trabajo este mes de octubre se presenta bastante bien,
+        ya que tu manera de trabajar puede que tenga reconocimiento por parte de tu empresa.</string>
+    <string name="txtaries">Tiene un buen mes en todo lo que tiene que ver con el trabajo, si bien tiene que ser constante, habrá momentos duros,
+        pero si no desfallece obtendrá sus merecidos frutos.
+        En el amor también hay buenas predicciones para los Aries, la relación se asienta u oportunidad para conocer personas especiales.</string>
+    <string name="txttauro">En el amor se pueden plantear situaciones que van a requerir tomar decisiones importantes. Lo recomendable es actuar con la mente abierta y el corazón sereno.
+        En el trabajo se presenta un buen mes, muy posiblemente nos serás reconocido nuestro trabajo por parte de nuestros superiores y compañeros.</string>
+    <string name="txtgeminis">Puede que tenga ciertos momentos un poco complicados en el ámbito laboral, sobre todo debido a un exceso de trabajo, que le puede hacer cometer algún error.
+        En el amor la cosa tampoco pinta bien, ya que puede haber peleas y malentendidos, que harán que la pareja pase momentos complicados.</string>
+    <string name="txtcancer">En el amor habrá cambios inesperados pero que si saben gestionar adecuadamente, serán para mejorar la relación, sin duda hay una gran oportunidad para mejorar todo lo que tenga que ver con el amor.
+        En el trabajo hay momento complicados, pero si se gestionan con determinación y honestidad, nuestro posición saldrá reforzada.</string>
+    <string name="txtleo">En el amor es momento de reconocer errores cometidos en el pasado.
+        Hay que apostar por la comunicación y decir lo que se siente, también es momento para pedir perdón. En el trabajo habrá mucha actividad, sobre todo a final de este mes,
+        se puede conseguir reconocimiento, para ello tendremos que fomentar el dialogo con compañeros y ser paciente.</string>
+    <string name="txtvirgo">Este mes se presenta bastante interesante para los nacidos bajo el signo de Virgo, ya que pueden tener vivencias únicas y divertidas en todo lo que tiene que ver con el amor.
+        Es un buen momento para romper tabús y dejarse llevar por lo que el cuerpo nos pida. Virgo tendrá un mes lleno de erotismo atrevido.</string>
+    <string name="txtlibra">En el amor se presentan días un poco complicados a principio de mes, ya que el planeta Júpiter entrará en el signo de Escorpio a final de mes.
+        Debe tener cuidado en caer en problemas y enfrentamientos con su pareja.
+        Puede ser un buen mes para algún juego de azar o realizar inversiones, si bien deberá analizarlas con detalle antes de tomar la determinación.</string>
+    <string name="txtescorpio">Durante este mes de octubre tendrá un mes de gran tranquilidad emocional.
+        Puede que en meses anteriores haya tenido un poco de tensión emocional pero en este mes encontrará la suficiente tranquilidad para disfrutar de su pareja.
+        Importante no tener celos y confiar en nuestra pareja.</string>
+    <string name="txtsagitario">Es un buen mes para el trabajo, proyectos muy creativos se presentan en el ámbito laboral de sagitario,
+        lo que hará sentirnos muy realizados a nivel personal.
+        En el amor se puede sentir un poco cansado de la rutina, por lo que es un buen momento para hacer cosas nuevas, quizás poner en práctica algunas de nuestras fantasías.</string>
+    <string name="txtcapricornio">Puede que tengas conflictos en el trabajo, pero si actúas con inteligencia y tranquilidad todo irá perfecto. En el amor te toca tomar decisiones bastantes importantes,
+        así que toca ser valiente y honesto. No es momento para dudar.
+        En el plano erótico es un mes increíble donde los capricornio podrán sacar todo su potencial.</string>
+
+
+</resources>

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo2"
+    tools:context="com.example.sebastianmunozalvial.horoscopo.seleccion_signo">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:srcCompat="@drawable/acuario"
+        android:layout_above="@+id/btnAcuario"
+        android:layout_alignStart="@+id/btnAcuario" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:srcCompat="@drawable/piscis"
+        android:layout_above="@+id/btnPiscis"
+        android:layout_toStartOf="@+id/imageView5" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:srcCompat="@drawable/aries"
+        android:layout_marginEnd="60dp"
+        android:layout_alignTop="@+id/imageView6"
+        android:layout_alignEnd="@+id/imageView6" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:srcCompat="@drawable/tauro"
+        android:layout_marginEnd="62dp"
+        android:layout_above="@+id/btnTauro"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:srcCompat="@drawable/geminis"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/btnAcuario" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:srcCompat="@drawable/cancer"
+        android:layout_alignTop="@+id/imageView7"
+        android:layout_toStartOf="@+id/imageView13" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:srcCompat="@drawable/leo"
+        android:layout_below="@+id/btnPiscis"
+        android:layout_toEndOf="@+id/btnPiscis" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:srcCompat="@drawable/virgo"
+        android:layout_below="@+id/btnAries"
+        android:layout_toEndOf="@+id/imageView9" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:srcCompat="@drawable/libra"
+        android:layout_below="@+id/btnGeminis"
+        android:layout_alignStart="@+id/btnGeminis" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:srcCompat="@drawable/escorpio"
+        android:layout_above="@+id/btnEscorpio"
+        android:layout_toEndOf="@+id/imageView11" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignStart="@+id/imageView9"
+        android:layout_alignTop="@+id/imageView12"
+        app:srcCompat="@drawable/sagitario" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:srcCompat="@drawable/capricornio"
+        android:layout_alignTop="@+id/imageView13"
+        android:layout_alignStart="@+id/btnCapricornio" />
+
+    <Button
+        android:id="@+id/btnAcuario"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:text="@string/acuario"
+        android:textSize="8dp"
+        android:layout_above="@+id/imageView8"
+        android:layout_toStartOf="@+id/btnPiscis" />
+
+    <Button
+        android:id="@+id/btnPiscis"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:text="@string/piscis"
+        android:textSize="8dp"
+        android:layout_above="@+id/imageView8"
+        android:layout_alignStart="@+id/imageView4" />
+
+    <Button
+        android:id="@+id/btnAries"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/imageView5"
+        android:layout_alignTop="@+id/btnPiscis"
+        android:text="@string/aries"
+        android:textSize="8dp" />
+
+    <Button
+        android:id="@+id/btnTauro"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/imageView10"
+        android:layout_alignTop="@+id/btnAries"
+        android:text="@string/tauro"
+        android:textSize="8dp" />
+
+    <Button
+        android:id="@+id/btnGeminis"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:text="@string/geminis"
+        android:textSize="8dp"
+        android:layout_below="@+id/imageView7"
+        android:layout_alignStart="@+id/imageView7" />
+
+    <Button
+        android:id="@+id/btnCancer"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:text="@string/cancer"
+        android:textSize="8dp"
+        android:layout_below="@+id/imageView8"
+        android:layout_alignStart="@+id/imageView8" />
+
+    <Button
+        android:id="@+id/btnLeo"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:text="@string/leo"
+        android:textSize="8dp"
+        android:layout_below="@+id/imageView9"
+        android:layout_toEndOf="@+id/imageView8" />
+
+    <Button
+        android:id="@+id/btnVirgo"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/imageView10"
+        android:layout_alignTop="@+id/btnLeo"
+        android:text="@string/virgo"
+        android:textSize="8dp" />
+
+    <Button
+        android:id="@+id/btnLibra"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:text="@string/libra"
+        android:textSize="8dp"
+        android:layout_below="@+id/imageView11"
+        android:layout_alignStart="@+id/imageView11" />
+
+    <Button
+        android:id="@+id/btnEscorpio"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/btnLibra"
+        android:layout_alignStart="@+id/imageView12"
+        android:text="@string/escorpio"
+        android:textSize="8dp" />
+
+    <Button
+        android:id="@+id/btnSagitario"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/imageView13"
+        android:layout_alignTop="@+id/btnEscorpio"
+        android:text="@string/sagitario"
+        android:textSize="8dp" />
+
+    <Button
+        android:id="@+id/btnCapricornio"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:text="@string/capricornio"
+        android:textSize="7dp"
+        android:layout_alignTop="@+id/btnSagitario"
+        android:layout_alignStart="@+id/btnVirgo" />
+
+    <TextView
+        android:id="@+id/lblNombreUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginRight="40dp"
+        android:textColor="@color/letras"
+        android:textSize="40dp"
+        android:layout_above="@+id/imageView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp" />
+</RelativeLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context="com.example.sebastianmunozalvial.horoscopo.clase_registro">
+
+    <TextView
+        android:id="@+id/lblRegistro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="23dp"
+        android:text="REGISTRO"
+        android:textColor="@color/letras"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:typeface="sans" />
+
+    <EditText
+        android:id="@+id/txtRegistroNombre"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="42dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/lbl_nombre"
+        android:layout_below="@+id/lblRegistro"
+        android:background="@drawable/backwithborder"
+        android:textColorHint="@color/letras"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:id="@+id/txtRegistroPass2"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="@string/lbl_pass2"
+        android:textColorHint="@color/letras"
+        android:background="@drawable/backwithborder"
+        android:layout_below="@+id/txtRegistroPass"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="26dp" />
+
+    <EditText
+        android:id="@+id/txtRegistroEmail"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textColorHint="@color/letras"
+        android:background="@drawable/backwithborder"
+        android:layout_marginTop="27dp"
+        android:hint="@string/lbl_email"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:layout_below="@+id/txtRegistroPass2"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/txtRegistroPass"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:textColorHint="@color/letras"
+        android:layout_below="@+id/txtRegistroNombre"
+        android:background="@drawable/backwithborder"
+        android:layout_marginTop="30dp"
+        android:hint="@string/lbl_pass"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnRegistrarU"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="51dp"
+        android:background="@drawable/bg_boton"
+        android:layout_marginTop="44dp"
+        android:text="@string/btn_registro"
+        android:layout_below="@+id/txtRegistroEmail"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btnCancelarRegistro"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/btnRegistrarU"
+        android:layout_marginEnd="74dp"
+        android:background="@drawable/bg_boton"
+        android:text="@string/btn_cancelar"/>
+</RelativeLayout>
